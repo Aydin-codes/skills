@@ -27,7 +27,7 @@ Use the toolkit to plan a 3D lesson page about how a power grid works.
 
 - Last updated November 2026. Prices and free tiers change; check before relying on them.
 - Tested in Claude; should work in other tools that support SKILL.md.
-- Drafted with AI help, tested and edited by me.
+- Updates will come later as I polish/test my private skills and make them public
 
 ## License
 
