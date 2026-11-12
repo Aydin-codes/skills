@@ -8,6 +8,7 @@ This repository hosts some of my personal favorite skills that I have created fo
 | --- | --- | --- |
 | toolkit | Gives your agent a free-first map of stacks, assets, libraries and example repos, plus checks to run before calling work done | [toolkit/](toolkit/) |
 | design-studio | Designs like a real designer: interviews you, shows real options to pick from, then builds only what's needed | [AydinHeugh/design-studio](https://github.com/Aydin-codes/design-studio) |
+| simplified | Explains any topic in plain, aircraft-manual-style English, in the mode you pick: textbook, flow, structured, deep or quick | [simplified/](simplified/) |
 | vert-research | Interviews an athlete and builds a vertical-jump training plan from graded sports-science research | coming soon (private repository as for now) |
 
 ## Install
