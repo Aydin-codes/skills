@@ -1,7 +1,5 @@
-[SKILL.md](https://github.com/user-attachments/files/34729993/SKILL.md)
----
-name: simplified
-description: Explain any topic in Simplified Technical English (ASD-STE100 style) with a fixed skimmable structure. Use when the user types /simplified or asks for a simplified explanation.
+
+# Description: Explain any topic in Simplified Technical English (ASD-STE100 style) with a fixed skimmable structure. Use when the user types /simplified or asks for a simplified explanation.
 ---
 
 # Simplified
