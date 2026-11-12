@@ -1,6 +1,6 @@
 ---
-name: simplified
-description: Explain any topic in Simplified Technical English (ASD-STE100 style) with a fixed skimmable structure. Use when the user types /simplified or asks for a simplified explanation.
+name: "simplified"
+description: "Explain any topic in Simplified Technical English (ASD-STE100 style) with a fixed skimmable structure. Use when the user types /simplified or asks for a simplified explanation."
 ---
 
 # Simplified
@@ -12,7 +12,7 @@ If the first word after `/simplified` is a mode name (`/simplified deep F-22`), 
 - **Textbook**: normal detailed paragraphs with the most facts
 - **Flow**: short manual-style paragraphs you read straight through
 - **Structured**: labeled sections you can scan
-- **Deep**: significance plus who/what/when/where/why/how
+- **Deep**: significance, key parts broken down, and how and why it works
 
 If no question tool is available, use Structured.
 
@@ -21,10 +21,16 @@ If no question tool is available, use Structured.
 - Active voice. Present tense where possible.
 - Use the same word for the same thing every time.
 - No idioms, filler, hedging, or intro sentences.
+- Sound like a person explaining to a friend, not a manual. Use "you". Link ideas with "so", "because", "that's why". Simple does not mean robotic.
 
 ## Reader and terms (all modes)
 - Assume a smart reader with a good general vocabulary who is new to this field.
-- On first use, explain each field-specific term, name, or acronym inline in parentheses: "F-22 (a US stealth fighter jet)", "ASD-STE100 (the simplified English used in aircraft manuals)".
+- **Side terms** (mentioned but not central): explain inline in parentheses on first use: "F-22 (a US stealth fighter jet)".
+- **Core terms** (the answer depends on them): explain, do not label. In your head, walk each one through four questions: What is it? Why does it matter here? What is it made of? What do those parts do? Then write the answers as one short, natural paragraph that flows from one to the next. Never print the four questions as labels.
+  Example: "A GPU is a chip first built to draw video game images. It matters for AI because AI needs huge amounts of simple math, and a GPU does that math faster than anything else. Inside, it has thousands of small cores. Each core does one small calculation, and they all work at the same time. A game needs millions of pixels at once, and so does an AI model, so the same chip fits both jobs."
+  The same four questions work in any field: a court, a cell, an economic idea, a historical event.
+- Middle ground on depth: take core terms all the way through the four questions. Give side terms one parenthesis. Skip what the reader already knows. If you are not sure, explain in one sentence.
+- Before you finish, reread as the newcomer. Wherever they would ask "what does that mean?" or "why?", answer it or cut the sentence.
 - Never explain everyday or general-vocabulary words. If an educated adult outside the field knows it, leave it alone.
 - If the topic is ambiguous (it has more than one meaning), say in one line which meaning you used, then continue.
 
@@ -50,7 +56,7 @@ If no question tool is available, use Structured.
 **Deep**
 1. **Answer:** one sentence with the core idea.
 2. **Why it matters:** the significance: what it changed, what depends on it, why anyone should care.
-3. **What / Who / When / Where:** short lines for each. Skip any W that does not fit the topic (for example, "who" for a math concept).
+3. **Key parts:** one short natural paragraph per core term (see Core terms above).
 4. **How it works:** numbered steps, in order.
 5. **Why it works this way:** the reason behind the design or cause, plus the main tradeoff.
 6. **Watch out:** one common misunderstanding.
@@ -61,6 +67,7 @@ If no question tool is available, use Structured.
 
 ## Depth and length
 - Keep every fact that changes how the thing works, even if it is advanced. State it in simple words.
-- Length: Quick under 60 words, Flow and Structured under 250, Textbook under 350, Deep under 450.
+- Length: Quick under 60 words, Flow and Structured under 300, Textbook under 400, Deep under 650. Quick only says what each core term is.
 - If the user says "deeper", add a **More detail** section in the same mode.
 - If a picture would explain it faster (a process, a system, a comparison), offer a diagram in one line at the end.
+- End every mode with **Next questions:** 2-3 short follow-ups this reader probably has now, so they can pick one and ask.
