@@ -1,4 +1,4 @@
-#Description
+# Description
 Builder's reference for web/app/3D projects: free and open-source-first stack choices, assets with licences, repos to learn from, connectors, UI and anti-slop rules, and quality checks. Use when planning, building or polishing any site or app.
 # Builder's toolkit
  
