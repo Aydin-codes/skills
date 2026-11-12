@@ -10,6 +10,8 @@ This repository hosts some of my personal favorite skills that I have created fo
 | design-studio | Designs like a real designer: interviews you, shows real options to pick from, then builds only what's needed | [AydinHeugh/design-studio](https://github.com/Aydin-codes/design-studio) |
 | simplified | Explains any topic in plain, aircraft-manual-style English, in the mode you pick: textbook, flow, structured, deep or quick | [simplified/](simplified/) |
 
+More to come :)
+
 ## Install
 
 These use the open Agent Skills format (SKILL.md), so they work in tools that support it.
