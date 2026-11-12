@@ -1,5 +1,8 @@
-# Description
-Builder's reference for web/app/3D projects: free and open-source-first stack choices, assets with licences, repos to learn from, connectors, UI and anti-slop rules, and quality checks. Use when planning, building or polishing any site or app.
+---
+name: toolkit
+description: "Builder's reference for web/app/3D projects: free and open-source-first stack choices, assets with licences, repos to learn from, connectors, UI and anti-slop rules, and quality checks. Use when planning, building or polishing any site or app."
+---
+
 # Builder's toolkit
  
 Reference and operating rules for building websites, web apps, mobile/desktop apps and 3D web experiences. Compiled Nov 2026. Prices, free tiers and maintenance status change: verify anything cost- or licence-critical before relying on it (Context7 or official docs/pricing pages).
