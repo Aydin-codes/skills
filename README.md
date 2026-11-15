@@ -10,7 +10,7 @@ This repository hosts some of my personal favorite skills that I have created fo
 | design-studio | Designs like a real designer: interviews you, shows real options to pick from, then builds only what's needed | [AydinHeugh/design-studio](https://github.com/Aydin-codes/design-studio) |
 | simplified | Explains any topic in plain, aircraft-manual-style English, in the mode you pick: textbook, flow, structured, deep or quick | [simplified/](simplified/) |
 |fork-chat | Pulls one topic out of a past Claude chat into a context file for AI and a short summary for you | [fork-chat/](fork-chat/)
-
+| regive | Adds a new idea onto an earlier answer: reprints the old answer, then the new part after it (or just the new part with `short`). | [regive](regive/) |
 More to come :)
 
 ## Install
