@@ -9,6 +9,7 @@ This repository hosts some of my personal favorite skills that I have created fo
 | toolkit | Gives your agent a free-first map of stacks, assets, libraries and example repos, plus checks to run before calling work done | [toolkit/](toolkit/) |
 | design-studio | Designs like a real designer: interviews you, shows real options to pick from, then builds only what's needed | [AydinHeugh/design-studio](https://github.com/Aydin-codes/design-studio) |
 | simplified | Explains any topic in plain, aircraft-manual-style English, in the mode you pick: textbook, flow, structured, deep or quick | [simplified/](simplified/) |
+|fork-chat | Pulls one topic out of a past Claude chat into a context file for AI and a short summary for you | [fork-chat/](fork-chat/)
 
 More to come :)
 
